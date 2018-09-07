@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url(http://allfont.net/allfont.css?fonts=ostrich-sans-bold);
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Ewert');
+@import url('https://fonts.googleapis.com/css?family=VT323');
+@font-face {
+    font-family: "cut-it-out-demo";
+    src: url("cut it out DEMO.otf") format("opentype");
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    text-align: center;
+    min-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+}
+
+#first {
+    background-image: url("../images/background.jpg");
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#headings {
+    padding-top: 10%;
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+button {
+    text-align: center;
+    border: none;
+    background-color: #003D6B;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 30px;
+    color: azure;
+    border-radius: 10px;
+    font-family: 'Slabo 27px', serif;
+    position: relative;
+    margin-top: 40%;
+}
+
+button:hover {
+    background-color: darkblue;
+    color: wheat;
+    cursor: pointer;
+}
+
+
+#txt {
+    font-family: 'Slabo 27px', serif;
+    font-size: 100px;
+}
+
+#name {
+    font-family: 'Ostrich Sans Bold', sans-serif;
+    font-size: 110px;
+}
+
+#scroll {
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    margin-top: 10%;
+}
+
+#different {
+    font-family: 'Ostrich Sans Bold', sans-serif;
+    font-size: 30px;
+
+}
+
+#confetti-rain {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+#corn {
+    text-align: center;
+    position: relative;
+    min-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+    /*background-image: url("../images/background2.png");*/
+    /* Set a specific height */
+    /*height: 500px;*/
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#corn h3 {
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    padding: 10%;
+}
+
+#memes h3 {
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    padding: 5% 5% 2%;
+}
+
+#memes {
+    text-align: center;
+    min-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+    background-image: url("../images/background3.png");
+    /* Set a specific height */
+    /*height: 500px;*/
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 18px;
+    z-index: 5;
+    color: white;
+}
+
+#first-p {
+    padding-top: 5%;
+    font-family: 'VT323', monospace;
+    padding-bottom: 2%;
+    font-size: 25px;
+}
+
+#emphasis {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+}
+
+#birthday {
+    font-family: 'Ostrich Sans Bold', sans-serif;
+    font-size: 25px;
+}
+
+#corny {
+    font-family: 'Ewert', cursive;
+}
+
+.hexaflip-cube {
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    text-rendering: optimizeLegibility;
+    font-smoothing: antialiased;
+    cursor: move;
+    cursor: grab;
+    display: inline-block;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.4s;
+}
+
+.hexaflip-cube.no-tween {
+    transition-duration: 0;
+}
+
+.hexaflip-cube > div {
+    width: 100%;
+    overflow: hidden;
+    height: 100.5%;
+    position: absolute;
+    user-select: none;
+    background-size: cover;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    font-weight: 100;
+    text-shadow: 0 -2px 0 rgba(0,0,0,0.3);
+    line-height: 1.5;
+}
+
+.hexaflip-left, .hexaflip-right {
+    background-color: #555 !important;
+}
+
+.hexaflip-timepicker .hexaflip-cube:last-child > div:nth-child(odd) {
+    background-color: #ff575b;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+#images {
+    padding-top: 5%;
+    display: flex;
+    z-index: 4;
+}
+
+#images1 {
+    width: 400px;
+    height: auto;
+    padding-left: 200px;
+    flex: 0.7;
+}
+
+#images2 {
+    width: 400px;
+    height: auto;
+    padding-right: 200px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color:rgba(33, 33, 33, 0.9);
+    color:#ffffff;
+    display:block;
+    font: 14px/1.3 Arial,sans-serif;
+    height:50px;
+    position:relative;
+    z-index:5;
+}
+h2{
+    margin-top: 30px;
+    text-align: center;
+}
+header h2{
+    font-size: 22px;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 80%;
+    text-align: center;
+}
+header a, a:visited {
+    text-decoration:none;
+    color:#fcfcfc;
+}
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+    from {background-position: 0;}
+    to {background-position:10000px 0;}
+}
+
+.stars, .twinkling, .clouds {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    height:100%;
+    display:block;
+}
+
+.stars {
+    background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+    z-index:-2;
+}
+
+.twinkling{
+    background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+    z-index:-1;
+
+    -moz-animation:move-twink-back 200s linear infinite;
+    -ms-animation:move-twink-back 200s linear infinite;
+    -o-animation:move-twink-back 200s linear infinite;
+    -webkit-animation:move-twink-back 200s linear infinite;
+    animation:move-twink-back 200s linear infinite;
+}
+
+
+canvas{
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border: 2px solid white;
+}
+
+.fourth {
+    background: url("../images/background-4.jpg") no-repeat fixed center;
+    background-size: cover;
+    text-align: center;
+    min-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+}
+
+.fourth > p {
+    font-family: cut-it-out-demo;
+    font-size: 20px;
+    color: black;
+    padding-top: 10%;
+    line-height: 40px;
+}
+
+a{
+    color: #003865;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #001526;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#music {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
