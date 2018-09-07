@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 @import url('https://fonts.googleapis.com/css?family=Ewert');
 @import url('https://fonts.googleapis.com/css?family=VT323');
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
 @font-face {
     font-family: "cut-it-out-demo";
     src: url("cut it out DEMO.otf") format("opentype");
@@ -87,7 +88,7 @@ button:hover {
 }
 
 #name {
-    font-family: 'membra', sans-serif;
+    font-family: 'Gamja Flower', cursive;
     font-size: 110px;
 }
 
@@ -98,7 +99,7 @@ button:hover {
 }
 
 #different {
-    font-family: 'membra', sans-serif;
+    font-family: 'Gamja Flower', cursive;
     font-size: 30px;
 
 }
@@ -182,7 +183,7 @@ p {
 }
 
 #birthday {
-    font-family: 'membra', sans-serif;
+    font-family: 'Gamja Flower', cursive;
     font-size: 25px;
 }
 
